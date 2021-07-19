@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(14, 10, 6);
+}
+.image-container {
+  display: flex;
+  padding-top: 10px;
+}
+.banner {
+  background-color: ;
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.profile-pic {
+  display: flex;
+  background-color: ;
+  justify-content: center;
+  position: relative;
+  bottom: 200px;
+  background-color: ;
+  height: 150px;
+  text-align: center;
+}
+.profile-image {
+}
+.profile-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.profile-image p {
+  padding-top: 8px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(211, 32, 85);
+}
+.summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+}
+.content {
+  background: linear-gradient(
+    to left bottom,
+    rgb(156, 209, 18, 1),
+    rgba(13, 66, 212, 0.5)
+  );
+
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+.content h1 {
+  color: slateblue;
+}
+.content p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: black;
+}
+.anime_details {
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    to left bottom,
+    rgba(215, 18, 188, 1),
+    rgba(218, 0, 44, 1)
+  );
+  padding-top: 7px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  width: 60%;
+  border-radius: 20px;
+}
+.details-container p {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(57, 219, 8);
+}
+.item {
+  padding-top: 15px;
+}
+.details-container h2 {
+  color: rgb(236, 229, 229);
+  font-weight: bold;
+  font-size: 30px;
+}

@@ -1,0 +1,49 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '../../static/style.css' %}">
+    <title>Image Gallery</title>
+</head>
+<body>
+  <div class="image-container">
+      <div class="banner"> <img class="banner-img" src="{{cover_image}}"> </div>
+  </div>
+  <div class="profile-pic">
+      <div class="profile-image">
+          <img src="{{image}}">
+          <p>{{name}}</p>
+        </div>
+  </div>
+  <div class="summary">
+      <div class="content">
+          <h1><u>Summary</u></h4>
+          <p>{{des}}</p>
+      </div>
+  </div>
+
+  <div class="anime_details">
+    
+     <div class="details-container">
+        <h2><u>Anime Details</u></h2>
+         <div class='item'>
+            <p>Name: <span style="color: rgb(205, 224, 34);">{{name}}</span></p>
+         </div>
+         <div class="item">
+            <p>Type: <span style="color: rgb(205, 224, 34);">{{type}}</span></p>
+         </div>
+         <div class="item">
+            <p>Status: <span style="color: rgb(205, 224, 34);">{{status}}</span></p>
+         </div>
+         <div class="item">
+            <p>Air Date: <span style="color: rgb(205, 224, 34);">{{start_date}}</span></p>
+         </div>
+         <div class="item">
+            <p> Rating: <span style="color: rgb(205, 224, 34);">{{rating}}</span></p>
+         </div>
+     </div>
+  </div>
+</body>
+</html>
